@@ -1,0 +1,70 @@
+{
+	"labels": {
+		"6": "kidney",
+		"5": "tumor",
+		"4": "cyst",
+		"3": "ureter",
+		"2": "vein",
+		"1": "artery",
+		"0": "background"
+	},
+	"reference": "Urology dataset",
+	"licence": "Sechenov university",
+	"numTraining": 0,
+	"numTest": 9,
+	"tensorImageSize": "3D",
+	"dataRoot": "data",
+	"modality": {
+		"0": "CT"
+	},
+	"description": "artery,vein,ureter,cyst,tumor,kidney segmentation",
+	"name": "AVUCTK dataset",
+	"release": "1.0 24/04/2023",
+	"validation": [{
+		"artery": "data/case_1/12.nii.gz",
+		"vein": "data/case_1/22-.nii.gz",
+		"excret": "data/case_1/32-.nii.gz",
+		"label": "data/case_1/merged.nii.gz"
+	}, {
+		"artery": "data/case_2/12.nii.gz",
+		"vein": "data/case_2/22-.nii.gz",
+		"excret": "data/case_2/32-.nii.gz",
+		"label": "data/case_2/merged.nii.gz"
+	}, {
+		"artery": "data/case_3/12.nii.gz",
+		"vein": "data/case_3/22-.nii.gz",
+		"excret": "data/case_3/32-.nii.gz",
+		"label": "data/case_3/merged.nii.gz"
+	}, {
+		"artery": "data/case_4/12.nii.gz",
+		"vein": "data/case_4/22-.nii.gz",
+		"excret": "data/case_4/32-.nii.gz",
+		"label": "data/case_4/merged.nii.gz"
+	}, {
+		"artery": "data/case_5/12.nii.gz",
+		"vein": "data/case_5/22-.nii.gz",
+		"excret": "data/case_5/32-.nii.gz",
+		"label": "data/case_5/merged.nii.gz"
+	}, {
+		"artery": "data/case_6/12.nii.gz",
+		"vein": "data/case_6/22-.nii.gz",
+		"excret": "data/case_6/32-.nii.gz",
+		"label": "data/case_6/merged.nii.gz"
+	}, {
+		"artery": "data/case_7/12.nii.gz",
+		"vein": "data/case_7/22-.nii.gz",
+		"excret": "data/case_7/32-.nii.gz",
+		"label": "data/case_7/merged.nii.gz"
+	}, {
+		"artery": "data/case_8/12.nii.gz",
+		"vein": "data/case_8/22-.nii.gz",
+		"excret": "data/case_8/32-.nii.gz",
+		"label": "data/case_8/merged.nii.gz"
+	}, {
+		"artery": "data/case_9/12.nii.gz",
+		"vein": "data/case_9/22-.nii.gz",
+		"excret": "data/case_9/32-.nii.gz",
+		"label": "data/case_9/merged.nii.gz"
+	}],
+	"training": []
+}
